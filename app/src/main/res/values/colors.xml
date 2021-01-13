@@ -7,10 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="backgroundopacity">#AB363535</color>
+    <color name="backgroundopacity">#AB3635</color>
     <color name="startcolorgradient">#443C20</color>
     <color name="endcolorgradient">#e8a564</color>
-    <color name="fbcolor">#3c62acr</color>
+    <color name="fbcolor">#3c62ac</color>
     <color name="tintlogocolor">#AC7A4A</color>
     <color name="goooglecolor">#C3463B</color>
 </resources>
