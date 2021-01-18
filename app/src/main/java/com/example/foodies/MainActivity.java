@@ -1,7 +1,10 @@
 package com.example.foodies;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -56,6 +59,21 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
+         new AlertDialog.Builder(MainActivity.this)
+                 .setIcon(R.drawable.ic_baseline_check_24)
+                 .setMessage("welcome")
+                 .setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                     @Override
+                     public void onClick(DialogInterface dialog, int which) {
+                         Toast.makeText(MainActivity.this, "Starting", Toast.LENGTH_SHORT).show();
+                         dialog.dismiss();
+                     }
+                 })
+                 .show();
+
+
 
 
 
